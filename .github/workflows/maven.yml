@@ -28,7 +28,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: imnmania/spring-boot-github-actions-test
-        tags: 1.0
+        tags: 2.0
         registry: docker.io
         dockerfile: dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
