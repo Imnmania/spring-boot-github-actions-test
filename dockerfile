@@ -1,7 +1,7 @@
 FROM openjdk:11-jre
 # FROM oracle-java:1.0
 VOLUME /tmp
-ADD target/springBootDocker-1.0.0.jar springBootDocker.jar
+ADD target/spring-boot-github-actions-test.jar springBootDocker.jar
 ENTRYPOINT ["java","-jar","/springBootDocker.jar"]
 EXPOSE 8080
 
